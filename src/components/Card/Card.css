@@ -1,0 +1,161 @@
+div.card{
+  width: 25rem;
+  min-height: 464px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.bg-black{
+  background-color: rgba(51, 46, 46, 0.692);
+}
+
+div.card:hover{
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.24);
+  transform: translateY(-10px);
+}
+
+img.card-img{
+  height: 300px;
+  transition: all 0.8s ease;
+}
+
+img.card-img:hover {
+  transform: translateX(15px) translateY(-15px);
+}
+
+
+
+
+div.stats > span {
+  margin: 2px;
+  border-radius: 5px;
+}
+
+.btc {
+  width: 100px;
+  margin: 1px;
+  border-radius: 5px;
+}
+
+.btc:hover{
+  transform: translateY(-3px);
+}
+
+div.stats > span:hover {
+  transform: translateY(-3px);
+}
+
+.bt-fire{
+  background-color: #fd7d24;
+  color: #fff;
+}
+
+.bt-grass{
+  background-color: #9bcc50;
+  color: #fff;
+}
+
+.bt-poison{
+  background-color: #b97fc9;
+  color: #fff;
+}
+
+.bt-flying{
+  background: linear-gradient(180deg, #3dc7ef 50%, #bdb9b8 50%);
+  background-color: #3dc7ef;
+  color: #fff;
+}
+
+.bt-water{
+  background-color: #3dc7ef;
+  color: #fff;
+}
+
+.bt-bug{
+  background-color: #729f3f;
+  color: #fff;
+}
+
+.bt-normal{
+  background-color: #a4acaf;
+  color: #fff;
+}
+
+.bt-electric{
+  background-color: #eed535;
+  color: #fff;
+}
+
+.bt-ground{
+  background: linear-gradient(180deg, #f7de3f 50%, #ab9842 50%);
+  background-color: #f7de3f;
+  color: #fff;
+}
+
+.bt-fairy{
+  background-color: #fdb9e9;
+  color: #fff;
+}
+
+.bt-fighting{
+  background-color: #d56723;
+  color: #fff;
+}
+
+.bt-psychic{
+  background-color: #f366b9;
+  color: #fff;
+}
+
+.bt-rock{
+  background: linear-gradient(180deg, #a38c21 50%, #a38c21 50%);
+  background-color: #a38c21;
+  color: #fff;
+}
+
+.bt-steel{
+  background: linear-gradient(180deg, #9eb7b8 50%, #9eb7b8 50%);
+  background-color: #9eb7b8;
+  color: #fff;
+}
+
+.bt-ice{
+  background: linear-gradient(180deg, #51c4e7 50%, #51c4e7 50%);
+    background-color: #51c4e7;
+  color: #fff;
+}
+
+.bt-ghost{
+  background: linear-gradient(180deg, #7b62a3 50%, #7b62a3 50%);
+    background-color: #7b62a3;
+  color: #fff;
+}
+
+.bt-dragon{
+  background: linear-gradient(180deg, #53a4cf 50%, #f16e57 50%);
+    background-color: #53a4cf;
+  color: #fff;
+}
+
+.bt-dark{
+  background: linear-gradient(180deg, #707070 50%, #707070 50%);
+    background-color: #707070;
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

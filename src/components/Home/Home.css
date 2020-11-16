@@ -1,0 +1,17 @@
+div.cards{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+div.actions{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-dark{
+  background-color: rgba(51, 46, 46, 0.692);
+}
