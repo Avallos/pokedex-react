@@ -42,6 +42,18 @@ div.stats > span {
   transform: translateY(-3px);
 }
 
+.bt-favorite{
+  background-color: rgb(253, 77, 77);
+  color: #fff;
+  border-radius: 30px;
+  
+}
+
+.bt-favorite:hover{
+  transform: translateY(-5px);
+  
+}
+
 div.stats > span:hover {
   transform: translateY(-3px);
 }

@@ -3,6 +3,7 @@ import "./Login.css";
 import Avatar from "../../assets/images/pokeball.png";
 import StoreContext from "../store/Context";
 import { useHistory } from "react-router-dom";
+import {Toast} from '../../utils/Toast';
 
 function initialState() {
   return {
@@ -13,6 +14,7 @@ function initialState() {
 
 function logar({ user, password }) {
   if (user === "admin" && password === "admin") {
+
     return { token: "1234" };
   }
   return { error: "usuario ou senha inválido" };
@@ -38,9 +40,17 @@ const Login = () => {
 
     if (token) {
       setToken(token);
+      Toast.fire({
+        icon: 'success',
+        title: 'Logado com Sucesso'
+      })
       return history.push("/home");
     }
     setValues(initialState);
+    Toast.fire({
+      icon: 'error',
+      title: 'Usuario ou Senha Incorretos'
+    })
   }
 
   return (

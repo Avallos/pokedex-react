@@ -5,7 +5,7 @@ import Home from './components/Home/Home'
 import {BrowserRouter} from 'react-router-dom'
 import StoreProvider from './components/store/Provider'
 import RoutesPrivate from './components/Routes/Private/Private'
-
+import Favorites from './components/Favorites/Favorites'
 
 const Routes = () => {
     return (
@@ -14,6 +14,7 @@ const Routes = () => {
               <Switch>
                   <Route exact path='/' component={Login}></Route>
                   <RoutesPrivate  path='/home' component={Home}/>
+                  <RoutesPrivate  path='/favorites' component={Favorites}/>
                   <Redirect from='*' to='/'></Redirect>
               </Switch>
           </StoreProvider>
